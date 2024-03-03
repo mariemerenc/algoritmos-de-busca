@@ -1,0 +1,104 @@
+[ 33%] Built target TM
+[ 66%] Built target sa
+[100%] Built target all_tests
+[===========] Running 5 from the "Linear Search Test Suite" test suite.
+[ [1;34mRUN[0m       ] BasicSearch-> Search for all n elements present in the array.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] FailedSearchLeft-> Search for an element not present, which is smaller than the lowest value element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] FailedSearchRight-> Search for an element not present, which is greater than the highest value element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] FailedSearchInBetween-> Search for an element not present, which has a value in the range of elements.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] EmptyArray-> Search for an element in an empty array.
+[        [1;32mOK[0m ]
+[===========] 5 tests from the "Linear Search Test Suite" test suite ran.
+[ [1;32mPASSED[0m    ] 5 tests.
+
+[===========] Running 5 from the "Binary Search Test Suite" test suite.
+[ [1;34mRUN[0m       ] BasicSearch-> Search for all n elements present in the array.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] NotPresentToLeft-> Search for an element that is not present, whose value is smaller than the first element of the array.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] NotPresentToRight-> Search for an element that is not present, whose value is greater than the last element of the array.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] NotPresentInBetween-> Search for an element that is not present, whose value is between the first and the last elements of the array.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] EmptyRange-> Search for an element on an empty range.
+[        [1;32mOK[0m ]
+[===========] 5 tests from the "Binary Search Test Suite" test suite ran.
+[ [1;32mPASSED[0m    ] 5 tests.
+
+[===========] Running 16 from the "Lower Bound Test Suite" test suite.
+[ [1;34mRUN[0m       ] EmptyRange-> Lower bound applied to an empty range.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] RangeHasSingleValue-> Range has a repeated single value, same as target.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] RegularCallOddLength-> Regular call, range size is odd.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] LBToTheLeftOddLength-> Target element located to the left end of range
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] LBToTheRightOddLength-> Target element located to the right end of range.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] LBAtBeginningOddLength-> Target is the first element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] LBAtEndOddLength-> Target is the first element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] RangeHasSingleValueLBNotPresent-> Range has a repeated single value, target not present.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] TargetOutsideLeft-> Target is not present and is lower than the first element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] TargetOutsideRight-> Target is not present and is greater than the last element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] TargetOutsideInBetween-> Target is not present and is a value between the first and the last element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] RegularCallEvenLength-> Regular call, range size is odd.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] LBToTheLeftEvenLength-> Target element located to the left end of range
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] LBToTheRightEvenLength-> Target element located to the right end of range.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] LBAtBeginningEvenLength-> Target is the first element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] LBAtEndEvenLength-> Target is the first element.
+[        [1;32mOK[0m ]
+[===========] 16 tests from the "Lower Bound Test Suite" test suite ran.
+[ [1;32mPASSED[0m    ] 16 tests.
+
+[===========] Running 16 from the "Uppert Bound Test Suite" test suite.
+[ [1;34mRUN[0m       ] EmptyRange-> Upper bound applied to an empty range.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] RangeHasSingleValue-> Range has a repeated single value, same as target.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] RegularCallOddLength-> Regular call, range size is odd.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] UbToTheLeftOddLength-> Target element located to the left end of range
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] UbToTheRightOddLength-> Target element located to the right end of range.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] UbAtBeginningOddLength-> Target is the first element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] UbAtEndOddLength-> Target is the first element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] RangeHasSingleValueUbNotPresent-> Range has a repeated single value, target not present.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] TargetOutsideLeft-> Target is not present and is lower than the first element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] TargetOutsideRight-> Target is not present and is greater than the last element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] TargetOutsideInBetween-> Target is not present and is a value between the first and the last element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] RegularCallEvenLength-> Regular call, range size is odd.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] UbToTheLeftEvenLength-> Target element located to the left end of range
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] UbToTheRightEvenLength-> Target element located to the right end of range.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] UbAtBeginningEvenLength-> Target is the first element.
+[        [1;32mOK[0m ]
+[ [1;34mRUN[0m       ] UbAtEndEvenLength-> Target is the first element.
+[        [1;32mOK[0m ]
+[===========] 16 tests from the "Uppert Bound Test Suite" test suite ran.
+[ [1;32mPASSED[0m    ] 16 tests.
+
+[100%] Built target run_tests
